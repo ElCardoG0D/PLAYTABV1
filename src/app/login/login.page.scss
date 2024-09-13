@@ -1,0 +1,50 @@
+ion-header {
+  --background: #ff8800; 
+  --color: #000000; 
+}
+
+ion-content {
+  --background: #ffffff; 
+}
+
+.login-logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  ion-label, ion-input {
+    --color:var(--color)
+
+  }
+  ion-item {
+    --background: #ffffff; 
+    --border-color: #ff8800;
+  }
+
+  ion-button {
+    --background: #ff8800; 
+    --color: #ffffff; 
+    margin-top: 20px;
+  }
+
+  ion-item ion-button {
+    --color: #ff8800; 
+    margin-top: 10px;
+  }
+}
+
+ion-button[color="medium"] {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  --color: #ff8800; 
+}

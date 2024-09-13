@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Bienvenido, {{ username }}</h1>
+
+  <!-- Google Maps Component -->
+  <google-map
+    [height]="'400px'"
+    [width]="'100%'"
+    [center]="center"
+    [zoom]="zoom">
+    <map-marker
+      *ngIf="userLocation"
+      [position]="userLocation">
+    </map-marker>
+  </google-map>
+</ion-content>
